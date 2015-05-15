@@ -89,7 +89,7 @@ a:focus {
 }
 
 .navbar-custom a {
-    color: #fff;
+    color: #ff6600;
 }
 
 .navbar-custom .nav li a {
@@ -115,7 +115,7 @@ a:focus {
 }
 
 .navbar-custom .nav li.active a {
-    background-color: rgba(255, 151, 82, 0.74);
+    background-color: rgba(255, 255, 255, 0.3);
 }
 
 .navbar-custom .nav li.active a:hover {
@@ -147,12 +147,18 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/deskMacbook.jpeg) no-repeat bottom center scroll;
+    background: url(../img/deskMacbookBlur.jpeg) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+.center {
+    float:none;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 .intro .intro-body {
