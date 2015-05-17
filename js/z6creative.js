@@ -4,14 +4,33 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+$(document).ready(function () {
+    $('.back-to-top').hide();
+});
+
 // jQuery to collapse the navbar on scroll
-$(window).scroll(function() {
+$(window).scroll(function () {
     if ($(".navbar").offset().top > 50) {
         $(".navbar-fixed-top").addClass("top-nav-collapse");
     } else {
         $(".navbar-fixed-top").removeClass("top-nav-collapse");
     }
+    
+    // Botão para ir ao topo.
+    var offset = 250, duration = 0;		
+    if ($(this).scrollTop() > offset) {
+        $('.back-to-top').fadeIn(duration);
+    } else {
+        $('.back-to-top').fadeOut(duration);
+    }
 });
+
+$('.back-to-top').click(function (event) {
+    event.preventDefault();
+	$('html, body').animate({scrollTop: 0}, 500);
+	return false;
+})
+
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {

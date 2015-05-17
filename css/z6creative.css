@@ -389,3 +389,18 @@ img::-moz-selection {
 #contato-form .form-group > input {
     display: inline-block;
 }
+
+.back-to-top {
+	position: fixed;
+	bottom: 2em;
+	right: 0px;
+	color: #ff6600;
+	font-size: 12px;
+	padding: 1em;
+	display: none;
+    z-index: 1;
+}
+
+.back-to-top:hover {
+    color: #fff;
+}
