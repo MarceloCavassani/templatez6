@@ -56,6 +56,9 @@ a:focus {
     text-decoration: none;
     color: #ff6600;
 }
+.fonte {
+    font-size: 18px;
+}
 
 .light {
     font-weight: 400;
@@ -148,7 +151,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/deskMacbookBlur.jpeg) no-repeat bottom center scroll;
+    background: url(../img/header.jpg) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -298,7 +301,7 @@ a:focus {
 
     #map {
         height: 400px;
-        margin-top: 250px;
+        margin-top: 50px;
     }
 }
 
@@ -346,6 +349,9 @@ ul.banner-social-buttons {
     ul.banner-social-buttons li:last-child {
         margin-bottom: 0;
     }
+}
+.footer {
+    height: 50px;
 }
 
 footer {
